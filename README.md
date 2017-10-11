@@ -75,7 +75,9 @@ Then:
  if you are using react-native >= 0.29 then you should create the static instance of Activity in MainActivity class like:
 
     ```java
-
+    
+    import android.app.Activity; // <----  This!
+    
     public class MainActivity extends ReactActivity {
 
     public static Activity activity; // <----  This!
